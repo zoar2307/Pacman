@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.board-container {
+  margin: auto;
+}
+
+.cell {
+  font-size: 1.5em;
+  width: 2em;
+  height: 2em;
+}
+
+img {
+  width: 0.9em;
+  height: 0.9em;
+}
+
+.popup-container {
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  outline: 25px solid rgb(82, 56, 21);
+  border: 25px solid rgb(151, 103, 41);
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+button {
+  width: 100px;
+}
+
+.hide {
+  display: none;
+}
